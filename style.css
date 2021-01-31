@@ -1,0 +1,86 @@
+
+
+.extra-margins {
+    margin-top: 1rem;
+        margin-bottom: 2.5rem;
+}
+
+.jumbotron {
+        text-align: center;
+}
+.square {
+  position:absolute;
+  width: 64px;
+  height: 64px;
+  left: 41px;
+  top: 16px;
+  background: #F26C4F;
+  
+  z-index: 1;
+}
+.square2 {
+  /* position:absolute; */
+  width: 64px;
+  height: 64px;
+  
+  background: #F26C4F;
+  margin-top: 60px;
+  /* z-index: 1; */
+}
+.navbar {
+  background: #FFFFFF;
+        height: 44px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-weight: 400;
+  font-family: 'Rosarivo', serif;
+  margin-right: 40px;
+  /* width: 88px; */
+  /* text-align: center; */
+  font-size: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #F26C4F;
+}
+
+footer.page-footer {
+    background-color: #3b295a;
+      margin-top: 2rem;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+        color: #000 !important;
+        background: #F26C4F;
+}
+.navbar .btn-group .dropdown-menu a:active {
+        color: rgb(221, 48, 48) !important;
+}
+.jumbotron{
+  background:url('./images/Rectangle\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  /* width: 971px; */
+  height: 370px;
+  margin-bottom: 0px;
+}
+.dev{
+  background: transparent;
+  width: 177px;
+  height: 71px;
+  font-size: 33px;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.project{
+  background:#DAF4F2;
+  background: linear-gradient(to right bottom, #DAF4F2 50%,#ffff 50%);
+  height: 623px;
+}
+.aboutMe{
+  background:#DAF4F2;
+  background: linear-gradient(to left top, #FECACC 50%,#ffff 50%);
+  height: 623px;             
+}
