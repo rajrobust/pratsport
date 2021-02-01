@@ -84,3 +84,67 @@ footer.page-footer {
   background: linear-gradient(to left top, #FECACC 50%,#ffff 50%);
   height: 623px;             
 }
+
+.heading{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+.projectid{
+  margin-bottom: 70px;
+}
+.prolink{
+  color: black;
+  font-weight: 500;
+}
+.hr{
+  
+    border-bottom: 5px solid #F26C4F;
+    border-radius: 15px;
+    width: 59px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainhr{
+  border-bottom: 5px solid #F26C4F;
+border-radius: 15px;
+width: 765px;
+margin-left: auto;
+margin-right: auto;
+}
+.skills{
+  height: 460px;
+}
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #e2eefd;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #106eea;
+}
